@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8888;
+}
+
+
+header {
+    background: #6bab99;
+    color: #000;
+    padding: 1rem 0;
+}
+.section:about me{
+    color: #151fee;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: auto;
+    }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    color: #000;
+    text-decoration:None;
+    padding: 0.11rem 1rem;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #5b964c;
+}
+
+.banner {
+    background: url('banner\ img.jpg') no-repeat center center/cover;
+    color: #fcfcfc;
+    text-align: center;
+    padding: 3rem 0;
+    max: width 1400px;
+}
+
+
+section {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: auto;
+    align: center;
+    
+}
+
+.project-card {
+    border: 1px solid #645a5a;
+    padding: rem;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+
+
+.project-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #151fee;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+
+ footer {
+    text-align: center;
+    background: #565656;
+    color: #ffffff;
+    padding: 1rem 0;
+
+} 
+
+.social-icons a {
+    margin: 0 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
